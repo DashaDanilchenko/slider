@@ -1,0 +1,111 @@
+.slider_transition {
+    min-width: 900px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(153, 131, 76);
+}
+
+.container_slider {
+    width: 900px;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider_left {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    margin: auto;
+    display: flex;
+    /* background-image: url(./img/Burj\ Khalifa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.slider_left img {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.slider_center {
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;
+    margin: auto;
+    display: flex;
+    /* background-image: url(./img/Capital\ Gate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.slider_center img {
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+.slider_right {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    margin: auto;
+    display: flex;
+    /* background-image: url(./img/The\ Gherkin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.slider_right img {
+    width: 200px;
+    margin: auto; 
+    display: block;
+}
+
+.button {
+    min-width: 900px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    display: block;
+    margin: 10px;
+}
+
+.slider_focus {
+    min-width: 900px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: chocolate;
+}
+
+.line_slider {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+    overflow: hidden;
+}
+
+.shell {
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.shell img {
+    margin: auto; 
+    display: block;
+}
+
+.slider_focus button {
+    width: 70px;
+    height: 40px;
+}
